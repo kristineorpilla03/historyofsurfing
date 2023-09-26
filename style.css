@@ -1,0 +1,36 @@
+h1, h2 {
+  text-align: center;
+  font-family: "PT Serif", serif;
+}
+
+body {
+  background-image: url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2023/3/10/tyxl7svpdl6lcfzcg6s5/jack-robinson-hawaii);
+  color: black;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+}
+
+.surfers {
+  align-content: center;
+
+}
+
+#s1 {
+  float: left;
+  width: 25%;
+}
+
+#s2 {
+  float: left;
+  width: 25%;
+}
+
+#s3 {
+  float: left;
+  width: 25%;
+}
+
+#s4 {
+  float: left;
+  width: 25%;
+}
