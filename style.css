@@ -3,6 +3,11 @@ h1, h2 {
   font-family: "PT Serif", serif;
 }
 
+h3 {
+  color: blue;
+  font-family: "PT Serif", serif;
+}
+
 body {
   background-image: url(https://img.redbull.com/images/c_limit,w_1500,h_1000,f_auto,q_auto/redbullcom/2023/3/10/tyxl7svpdl6lcfzcg6s5/jack-robinson-hawaii);
   color: black;
@@ -11,26 +16,25 @@ body {
 }
 
 .surfers {
-  align-content: center;
-
+  text-align: center;
+  margin: auto;
 }
 
-#s1 {
+#s1, #s2, #s3, #s4 {
   float: left;
-  width: 25%;
+  width: 300px;
+  margin: auto;
+  margin-left: 100px;
 }
 
-#s2 {
-  float: left;
-  width: 25%;
+#surf-img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  filter: grayscale(100%);
 }
 
-#s3 {
-  float: left;
-  width: 25%;
-}
-
-#s4 {
-  float: left;
-  width: 25%;
+#name {
+  position: absolute;
+  text-align: center;
 }
